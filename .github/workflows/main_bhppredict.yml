@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'BHPpredict'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3354059CF2E74052918C2058E63A9FDF }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E2B8E243692F462B9D28C5A315ED8B5A }}
