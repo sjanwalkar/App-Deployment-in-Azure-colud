@@ -7,3 +7,5 @@
    ![image](https://user-images.githubusercontent.com/84242964/164133669-40ff85ba-3b45-4ba9-8a66-bb2f822dde5f.png)
    
    - Deployment center-->select source Github-->Save.
+   ![image](https://user-images.githubusercontent.com/84242964/164133756-9e57a1dd-c426-46f1-8436-a5a5f0eff617.png)
+   click the URL
