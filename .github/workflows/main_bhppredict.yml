@@ -2,7 +2,7 @@
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 # More info on Python, GitHub Actions, and Azure App Service: https://aka.ms/python-webapps-actions
 
-name: Build and deploy Python app to Azure Web App - BHPpredict
+name: Build and deploy Python app to Azure Web App - bhppredict
 
 on:
   push:
@@ -58,6 +58,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: 'BHPpredict'
+          app-name: 'bhppredict'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E2B8E243692F462B9D28C5A315ED8B5A }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8AA095D41296450E8E0852EB32B8CD20 }}
